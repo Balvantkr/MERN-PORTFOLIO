@@ -1,0 +1,491 @@
+/*------------------- HOME PAGE---------------------*/
+.home-container {
+  width: 100vh;
+  height: 300px;
+  color: white;
+  margin-left: 150px;
+}
+
+.home-content h2 {
+  padding: 5px;
+  padding-top: 70px;
+}
+
+.home-content h1 {
+  color: #e0b50f;
+  padding: 5px;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons .btn-hire {
+  background-color: #3b8ff3;
+  color: white;
+  width: 160px;
+}
+
+.home-buttons .btn-hire:hover {
+  background-color: white;
+  color: #3b8ff3;
+  width: 200px;
+  transition: 1s;
+}
+
+.home-buttons .btn-cv {
+  background-color: #f29f67;
+  color: white;
+  margin-left: 15px;
+}
+
+.home-buttons .btn-cv:hover {
+  opacity: 60%;
+  transition: 1s;
+}
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #1e1e1e;
+  margin-top: 20px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/*----------------------ABOUT PAGE------------------------- */
+.about {
+  margin: 30px 0px;
+  padding: 20px;
+  padding-left: 200px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.about-img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content h1 {
+  color: gray;
+  font-family: cursive;
+  border-bottom: 2px solid gray;
+  text-align: center;
+}
+
+.about-content p {
+  text-align: justify;
+  padding: 20px;
+}
+
+/*----------------- ABOUT PAGE DARK MODE---------------- */
+#dark .about {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#dark .about-content h1 {
+  color: #b0a4a4;
+  border-bottom: 2px solid #b0a4a4;
+}
+
+/*------------------------ EDUCATION PAGE---------------------*/
+.education {
+  padding: 100px 0px;
+  margin: 50px 0px;
+  margin-left: 120px;
+  background-color: rgba(128, 128, 128, 0.112);
+}
+
+.education hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.education h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.education .vertical-timeline-element-title {
+  color: #138781;
+}
+
+.education .vertical-timeline-element-subtitle {
+  color: #1e1e2c;
+}
+
+/*-----------------EDUCATION PAGE DARK MODE---------------------*/
+
+#dark .education {
+  background-color: rgba(255, 255, 255, 0.095);
+}
+
+/*------------------------ TECHSTACK PAGE-----------------------*/
+.techstack {
+  padding-left: 130px;
+  margin-top: 60px;
+}
+
+.techstack hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.techstack h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.techstack .card {
+  cursor: pointer;
+}
+
+.techstack .tech-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.techstack .card:hover {
+  background-color: #138781;
+  color: white;
+  border: none;
+  transition: 0.7s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*----------------------PROJECT PAGE------------------------ */
+.project {
+  margin: 50px 0px;
+  margin-left: 100px;
+}
+
+.project hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.project h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+#ads {
+  margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: #f29f67;
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.project .card img {
+  height: 150px;
+  width: 100%;
+}
+
+.card-detail-badge {
+  background-color: #e0b50f;
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.card-image-overly {
+  font-size: 20px;
+}
+
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.project.card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transition: all 0.9s ease;
+}
+
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #138781;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: #138781;
+  background: transparent;
+  border: 2px solid #138781;
+  transition: all 0.5s ease;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+/* ---------------------WORK EXP PAGE-----------------------*/
+.work {
+  background-color: #1387812a;
+  margin-left: 140px;
+}
+
+.work-exp {
+  padding: 60px 0px;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #1e1e2c;
+}
+
+.work-exp hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.vertical-timeline-element-title {
+  color: #138781;
+}
+
+.vertical-timeline-element-subtitle {
+  color: #1e1e2c78;
+}
+
+/*------------------------- WORKEXP. PAGE DARK MODE------------------------- */
+#dark .work {
+  background-color: #643a6b;
+}
+
+#dark .work-exp h2 {
+  color: white;
+}
+
+/*----------------------- CONTACT PAGE-------------------------*/
+.contact {
+  margin-left: 130px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+  border-radius: 0px;
+}
+
+.card2 {
+  margin: 0px 40px;
+}
+
+.card1 .image {
+  height: 100%;
+  width: 100%;
+}
+
+.border-line {
+  border-right: 1px solid #e0e0e0;
+}
+
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: black;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  width: 100%;
+  color: #138781;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+label{
+  font-size: large;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #1e1e2c;
+  color: white;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #1e1e2c;
+}
+
+/* -----------------MEDIA QUERY FOR RESPONSIVE------------------- */
+@media (max-width: 600px) {
+  body {
+    width: 100vh;
+    height: 7000px;
+  }
+
+  /*------------- HOME PAGE MEDIA QUERY------------- */
+  .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .home-container h2 {
+    font-size: 24px;
+  }
+
+  .home-container h1 {
+    font-size: 24px;
+  }
+
+  /*------------- ABOUT PAGE MEDIA QUERY------------ */
+  .about {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .about-content h1 {
+    margin-top: 10px;
+  }
+
+  /*--------------- EDUCATION PAGE MEDIA QUERY--------------- */
+  .education {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .education h2 {
+    padding-top: 20px;
+  }
+
+  .education hr {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+
+  /* ---------------TECHSTACK PAGE MEDIA QUERY---------------- */
+  .techstack {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .techstack hr {
+    width: 280px;
+  }
+
+  /*---------------- PROJECT PAGE MEDIA QUERY ---------------*/
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .project hr {
+    width: 280px;
+  }
+
+  .project .card {
+    margin-top: 30px;
+  }
+
+  /*--------------- WORK-EXPEIENCE PAGE MEDIA QUERY ----------------*/
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .work hr {
+    width: 280px;
+  }
+
+  /*------------------ CONTACT PAGE MEDIA QUERY ------------------*/
+  .contact {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .contact .card2 {
+    margin: 0;
+  }
+
+  .contact .card2 h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    color: black;
+    font-weight: 300;
+    font-size: 21px;
+  }
+
+  /*------------- MEDIA QUERY FOR FOOTER-------------- */
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
