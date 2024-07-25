@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post("api/v1/portfolio/sendEmail", {
+      const { data } = await axios.post("https://mern-portfolio-7ird.onrender.com/api/v1/portfolio/sendEmail", {
         name,
         email,
         message,
